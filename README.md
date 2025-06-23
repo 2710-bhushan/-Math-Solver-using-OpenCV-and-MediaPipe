@@ -1,4 +1,4 @@
-# ✋🧠 Gesture-Based Math Solver using OpenCV and MediaPipe
+# Gesture-Based Math Solver using OpenCV and MediaPipe
 
 This project is a **real-time hand gesture-based calculator** that lets users input and evaluate mathematical expressions using only hand gestures. Designed for accessibility, and computer vision practice, it translates hand signs into digits, operators, and commands.
 
@@ -41,14 +41,3 @@ This project is a **real-time hand gesture-based calculator** that lets users in
 | Both hands with 5 fingers           | `Clear` input   |
 | Both hands 2 fingers                | `Delete` input  |
 | Right index < left index (spatial)  | Exit program    |
-
-> Gestures are detected based on hand landmark positions and finger states.
-
----
-
-## 📦 Installation
-
-```bash
-git clone https://github.com/sam-1409/mathSolver.git
-cd mathSolver
-pip install -r requirements.txt
